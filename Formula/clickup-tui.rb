@@ -1,12 +1,12 @@
 class ClickupTui < Formula
   homepage "https://github.com/prgres/clickup-tui"
   desc "This project aims to provide a terminal user interface (TUI) for easy access to ClickUp, allowing users to interact with ClickUp features conveniently from the command line."
-  version "0.1.15"
+  version "0.1.16"
   license "MIT"
   head "https://github.com/prgres/clickup-tui.git", branch: "main"
 
-  url "https://github.com/prgres/clickup-tui/releases/download/v0.1.15/clickup-tui-apple-darwnin-silicone-v0.1.15.tar.gz"
-  sha256 "550b373b8f34ed906aeccc981fa62e5586779cc6cea0fcb8f87ddb0cf45c5164"
+  url "https://github.com/prgres/clickup-tui/releases/download/v0.1.16/clickup-tui-apple-darwnin-silicone-v0.1.16.tar.gz"
+  sha256 "cefc9b1a0d53f04a3e4cd1251f41de691908d8751cbcc8b53277472f93b74b15"
 
   def install
     bin.install "clickup-tui"
