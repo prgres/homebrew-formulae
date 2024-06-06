@@ -11,4 +11,8 @@ class ClickupTui < Formula
   def install
     bin.install "clickup-tui"
   end
+
+  test do
+    system "#{bin}/clickup-tui", "--version"
+  end
 end
